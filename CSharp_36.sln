@@ -17,15 +17,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{4A311BFC-E144-4E71-B71C-590F4B1DDCF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{A3869094-07C2-4D6B-BE52-FC1667B602EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{A3869094-07C2-4D6B-BE52-FC1667B602EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{EFBD044A-1D5E-4FEF-BD69-5A3FEDBBC9D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csproj", "{EFBD044A-1D5E-4FEF-BD69-5A3FEDBBC9D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{F4FB71E4-E4C0-46B2-838E-C6ABB3962BE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{F4FB71E4-E4C0-46B2-838E-C6ABB3962BE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{E835B00B-5D69-4081-8E53-E97F3A58DAF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{E835B00B-5D69-4081-8E53-E97F3A58DAF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChaingOfResponsibility", "ChaingOfResponsibility\ChaingOfResponsibility.csproj", "{C92049F8-86FE-44B1-BAE8-A8186A66E715}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChaingOfResponsibility", "ChaingOfResponsibility\ChaingOfResponsibility.csproj", "{C92049F8-86FE-44B1-BAE8-A8186A66E715}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{DCFD5050-58A8-4002-BF05-BAF8858F10A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateDeseni", "TemplateDeseni\TemplateDeseni.csproj", "{99E98B8C-B88E-477E-A7E0-EA51C6961117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{1C4BE716-B7A6-4930-9702-32481A5573FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +87,18 @@ Global
 		{C92049F8-86FE-44B1-BAE8-A8186A66E715}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C92049F8-86FE-44B1-BAE8-A8186A66E715}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C92049F8-86FE-44B1-BAE8-A8186A66E715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCFD5050-58A8-4002-BF05-BAF8858F10A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCFD5050-58A8-4002-BF05-BAF8858F10A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCFD5050-58A8-4002-BF05-BAF8858F10A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCFD5050-58A8-4002-BF05-BAF8858F10A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99E98B8C-B88E-477E-A7E0-EA51C6961117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E98B8C-B88E-477E-A7E0-EA51C6961117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E98B8C-B88E-477E-A7E0-EA51C6961117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E98B8C-B88E-477E-A7E0-EA51C6961117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C4BE716-B7A6-4930-9702-32481A5573FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4BE716-B7A6-4930-9702-32481A5573FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4BE716-B7A6-4930-9702-32481A5573FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4BE716-B7A6-4930-9702-32481A5573FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
